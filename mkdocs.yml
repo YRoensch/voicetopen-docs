@@ -1,11 +1,14 @@
-# Site config for the public user guide. Synced to YRoensch/voicetopen-docs by
-# .github/workflows/sync-docs.yml — edit it here, not in the public repo.
+# Site config for the public user guide. Published to YRoensch/voicetopen-docs by
+# scripts/publish-docs.sh — edit it here, not in the public repo.
 site_name: VoiceToPen User Guide
 site_url: https://yroensch.github.io/voicetopen-docs/
 docs_dir: docs
 
 theme:
   name: material
+  custom_dir: overrides
+  logo: images/logo.png
+  favicon: images/favicon.png
   features:
     - navigation.footer
     - search.highlight
@@ -20,6 +23,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+extra:
+  app_store_url: https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB&mt=12
 
 markdown_extensions:
   - admonition

@@ -1,0 +1,25 @@
+{#- Adds the App Store link (with the app logo) to the top of every page. -#}
+{% extends "base.html" %}
+
+{% block content %}
+<a class="vtp-store" href="{{ config.extra.app_store_url }}" target="_blank" rel="noopener">
+  <img src="{{ 'images/logo.png' | url }}" alt="" width="40" height="40">
+  <span>
+    <strong>VoiceToPen</strong>
+    <small>Get it on the App Store</small>
+  </span>
+</a>
+<style>
+  .vtp-store {
+    display: inline-flex; align-items: center; gap: .7rem;
+    margin-bottom: 1.2rem; padding: .45rem .9rem .45rem .45rem;
+    border: 1px solid var(--md-default-fg-color--lightest); border-radius: .6rem;
+    color: var(--md-default-fg-color) !important; text-decoration: none;
+  }
+  .vtp-store:hover { border-color: var(--md-accent-fg-color); }
+  .vtp-store img { border-radius: 22%; }
+  .vtp-store span { display: flex; flex-direction: column; line-height: 1.25; }
+  .vtp-store small { color: var(--md-default-fg-color--light); }
+</style>
+{{ super() }}
+{% endblock %}

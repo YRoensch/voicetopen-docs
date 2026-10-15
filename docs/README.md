@@ -1,5 +1,7 @@
 # VoiceToPen User Guide
 
+<a href="https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB&mt=12"><img src="images/logo.png" alt="VoiceToPen app icon" width="96"></a>
+
 VoiceToPen turns your voice recordings into polished writing: import audio, get a transcript, clean it up, and let Claude rewrite it into the text you need.
 
 *This guide describes VoiceToPen 1.0.1 for macOS 14.6 or later.*
