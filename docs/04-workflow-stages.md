@@ -126,8 +126,6 @@ How it behaves:
 - For cleaning, it uses the instructions from the last time you cleaned this entry — or the default instructions if you never did.
 - If transcription fails, it stops and shows "Pipeline failed".
 
-![The Run All confirmation with the buttons Run All, Re-transcribe & Run and Cancel](images/run-all-dialog.png)
-
 > ⚠️ Run All **always starts from scratch**: it re-transcribes the audio and replaces the transcript, the cleaned text and the result — including any edits. To keep your edits, run only the stage you need (for example, just **Generate with Claude**).
 
 ---
