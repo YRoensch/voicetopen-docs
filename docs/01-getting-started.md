@@ -52,12 +52,16 @@ You pay these services directly for what you use. VoiceToPen itself never sees y
 4. Under **Transcription**, choose your **Default Language** — the language you usually speak in your recordings. Choose **Auto-detect** if it varies.
 5. Click **Save**. You'll see "Settings saved ✓".
 
+![The Settings sheet with fields for the ElevenLabs and Anthropic API keys and the default language](images/settings.png)
+
 Your keys are stored securely in the macOS Keychain on your Mac.
 
 ## A quick tour of the window
 
 - **Sidebar (left):** your projects and the entries inside them, the **Entries** / **Progress** switch at the top, and **Settings** at the bottom.
 - **Main area (right):** the entry you're working on, or the Progress table.
+
+![The VoiceToPen window with the sidebar on the left and an open entry on the right](images/main-window.png)
 
 > **Good to know:** VoiceToPen has a single main window. Closing it quits the app. Everything you do is saved automatically, so nothing is lost.
 

@@ -10,6 +10,8 @@ At the top of the sidebar, click **Progress**. Click **Entries** to go back to t
 
 Entries are grouped by project. Each project's header shows how many of its entries are done (for example, "3/8").
 
+![The Progress view: a table of all entries with checkmarks for Audio, Transcript, Clean, Result and Done](images/progress-view.png)
+
 Each row is one entry, with these columns:
 
 | Column | A checkmark means… |

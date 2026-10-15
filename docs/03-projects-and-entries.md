@@ -49,6 +49,8 @@ Click it in the sidebar. The entry opens in the main area.
 - Click the title at the top of the open entry, type a new name and press **Return**, **or**
 - Right-click the entry in the sidebar and choose **Rename…**
 
+![The right-click menu of an entry with Rename, Move to project and Delete](images/entry-context-menu.png)
+
 ### Move an entry to another project
 
 1. Right-click the entry in the sidebar and choose **Move to project…**
@@ -83,6 +85,8 @@ You can select several entries — even from different projects — and act on t
 | **Done** / **Undone** | Mark all selected entries as done or not done |
 | **Delete** | Delete all selected entries |
 | **Close** | Clear the selection |
+
+![Three selected entries and the bulk action bar with Export, Done, Undone and Delete](images/bulk-selection.png)
 
 > ⚠️ **Bulk Delete does not ask for confirmation.** The selected entries are deleted immediately and permanently. Double-check your selection first.
 

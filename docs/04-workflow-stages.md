@@ -4,6 +4,8 @@ Each entry moves through five stages, shown as sections from top to bottom:
 
 **AUDIO → TRANSCRIPT → CLEAN → PROMPT → RESULT**
 
+![An entry with all five stages: Audio, Transcript, Clean, Prompt and Result](images/workflow-stages.png)
+
 Click a section's colored label to collapse or expand it. You can run each stage step by step, or run them all at once with **Run All**.
 
 ---
@@ -52,6 +54,8 @@ Click the **window** icon next to the button to open the transcript in its own l
 2. Click **Clean with Claude**.
 
 The cleaned text appears as it's being written. When it's done, you can edit it in the box below **Cleaned transcription (editable)**.
+
+![The Transcript section with the raw transcript and the Clean section with cleaning instructions and the cleaned text](images/transcript-and-clean.png)
 
 **Re-clean** runs it again with the current instructions.
 
@@ -121,6 +125,8 @@ How it behaves:
 - It uses the language currently selected in the **TRANSCRIPT** section.
 - For cleaning, it uses the instructions from the last time you cleaned this entry — or the default instructions if you never did.
 - If transcription fails, it stops and shows "Pipeline failed".
+
+![The Run All confirmation with the buttons Run All, Re-transcribe & Run and Cancel](images/run-all-dialog.png)
 
 > ⚠️ Run All **always starts from scratch**: it re-transcribes the audio and replaces the transcript, the cleaned text and the result — including any edits. To keep your edits, run only the stage you need (for example, just **Generate with Claude**).
 

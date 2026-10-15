@@ -22,6 +22,8 @@ An *entry* is one recording and everything made from it.
 
 Drag your audio file onto the dashed **AUDIO** box — or click **Browse for file…** and choose it. You'll see the file name, its size, and a player so you can listen.
 
+![A new, empty entry with the dashed audio drop zone and the Browse for file button](images/new-entry.png)
+
 ## 4. Pick a prompt
 
 In the **PROMPT** section, click one of the ready-made prompts to start with:

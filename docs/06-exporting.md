@@ -39,6 +39,8 @@ For text stages, all entries are combined into **one file**, in the order they a
 
 The selected entries are combined into one file, just like a project export. The order of entries in the file may differ from the sidebar — if order matters, export the whole project instead.
 
+![The export sheet for three selected entries with the stages Transcription, Cleaned, Result and Audio files](images/export-sheet.png)
+
 ## Notes
 
 - If an entry has nothing at the stage you chose (for example, no result yet), it still appears in the combined file under its title, with the placeholder *(no content)*. The export window warns you when this applies.
