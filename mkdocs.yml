@@ -1,0 +1,45 @@
+# Site config for the public user guide. Synced to YRoensch/voicetopen-docs by
+# .github/workflows/sync-docs.yml — edit it here, not in the public repo.
+site_name: VoiceToPen User Guide
+site_url: https://yroensch.github.io/voicetopen-docs/
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: README.md
+  - Getting Started: 01-getting-started.md
+  - Quick Start: 02-quick-start.md
+  - Projects & Entries: 03-projects-and-entries.md
+  - The Writing Workflow: 04-workflow-stages.md
+  - The Progress View: 05-progress-view.md
+  - Exporting Your Work: 06-exporting.md
+  - Privacy & Your Data: 07-privacy-and-data.md
+  - Troubleshooting & FAQ: 08-troubleshooting.md
+  - Contact & Support: 09-support.md
+  - Legal:
+      - Privacy Policy: legal/privacy-policy.md
+      - Terms of Service: legal/terms-of-service.md
+      - Legal Notice: legal/legal-notice.md
