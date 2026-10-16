@@ -6,7 +6,7 @@ VoiceToPen turns your voice recordings into polished writing: import audio, get 
 
 ![The VoiceToPen window: projects in the sidebar, the open entry on the right](images/main-window.png)
 
-*This guide describes VoiceToPen 1.0.1 for macOS 14.6 or later.*
+*This guide describes the current App Store version of VoiceToPen, for macOS 14.6 or later. See [Release Notes](release-notes.md) for what's new in each version.*
 
 ## Contents
 
@@ -19,6 +19,8 @@ VoiceToPen turns your voice recordings into polished writing: import audio, get 
 7. [Privacy & Your Data](07-privacy-and-data.md) — what is sent where, where data is stored, backups
 8. [Troubleshooting & FAQ](08-troubleshooting.md) — error messages and common questions
 9. [Contact & Support](09-support.md) — how to reach us
+
+Also: [Release Notes](release-notes.md) — what changed in each version
 
 ## Keyboard shortcuts
 

@@ -1,4 +1,6 @@
-{#- Adds the App Store link (with the app logo) to the top of every page. -#}
+{#- Adds the App Store link (with the app logo and the app version this guide
+    covers) to the top of every page. The version is filled in by
+    scripts/build-public-docs.sh from the Xcode project. -#}
 {% extends "base.html" %}
 
 {% block content %}
@@ -6,7 +8,7 @@
   <img src="{{ 'images/logo.png' | url }}" alt="" width="40" height="40">
   <span>
     <strong>VoiceToPen</strong>
-    <small>Get it on the App Store</small>
+    <small>Version {{ config.extra.app_version }} · Get it on the App Store</small>
   </span>
 </a>
 <style>

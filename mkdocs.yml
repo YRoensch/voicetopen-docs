@@ -26,6 +26,8 @@ theme:
 
 extra:
   app_store_url: https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB&mt=12
+  # Replaced with MARKETING_VERSION from the Xcode project by scripts/build-public-docs.sh.
+  app_version: "1.0.1"
 
 markdown_extensions:
   - admonition
@@ -45,6 +47,7 @@ nav:
   - Privacy & Your Data: 07-privacy-and-data.md
   - Troubleshooting & FAQ: 08-troubleshooting.md
   - Contact & Support: 09-support.md
+  - Release Notes: release-notes.md
   - Legal:
       - Privacy Policy: legal/privacy-policy.md
       - Terms of Service: legal/terms-of-service.md
