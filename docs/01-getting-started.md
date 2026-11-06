@@ -26,6 +26,8 @@ You pay these services directly for what you use. VoiceToPen itself never sees y
 2. Click **Get**, then **Install**.
 3. Open VoiceToPen from Launchpad or your Applications folder. On iPad, open it from the Home Screen.
 
+> **iPad version pending:** VoiceToPen for iPad is waiting for App Store approval. Until Apple approves it, VoiceToPen is available for Mac only.
+
 > **Tip:** You don't need to keep this page open. In VoiceToPen's **Settings**, click the **ⓘ** button next to each API key field for the same steps and a link that opens the service's API key page.
 
 ## Step 2: Get your ElevenLabs API key
@@ -55,7 +57,7 @@ You pay these services directly for what you use. VoiceToPen itself never sees y
 4. Under **Transcription**, choose your **Default Language** — the language you usually speak in your recordings. Choose **Auto-detect** if it varies.
 5. Click **Save**. You'll see "Settings saved ✓".
 
-![The Settings sheet with fields for the ElevenLabs and Anthropic API keys and the default language](images/settings.png)
+![The Settings sheet with fields for the ElevenLabs and Anthropic API keys, an ⓘ button next to each, and the default language](images/settings.png)
 
 Your keys are stored securely in the Keychain on your device. If you use VoiceToPen on both a Mac and an iPad, enter them on each device.
 

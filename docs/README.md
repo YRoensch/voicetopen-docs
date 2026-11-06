@@ -10,6 +10,8 @@ Record an idea whenever it comes to you, turn it into a finished post, and on iP
 
 *This guide describes the current App Store version of VoiceToPen for Mac (macOS 14.6 or later) and iPad (iPadOS 17 or later). Instructions are written for the Mac; [Using VoiceToPen on iPad](10-ipad.md) lists what's different on iPad. See [Release Notes](release-notes.md) for what's new in each version.*
 
+> **iPad version pending:** VoiceToPen for iPad is waiting for App Store approval. Until Apple approves it, VoiceToPen is available for Mac only.
+
 ## Contents
 
 1. [Getting Started](01-getting-started.md) — install the app, get your API keys, enter them in Settings

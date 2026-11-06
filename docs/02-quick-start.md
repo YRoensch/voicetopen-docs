@@ -26,7 +26,7 @@ To record instead, click **Record**, speak, and click **Stop** — see [Recordin
 
 > **From Voice Memos:** you can also send a recording straight from Voice Memos with **Share → VoiceToPen**. It arrives as a new entry in the **From Voice Memos** project, with the audio already added — see [Recordings from Voice Memos](03-projects-and-entries.md#recordings-from-voice-memos).
 
-![A new, empty entry with the dashed audio drop zone and the Browse for file button](images/new-entry.png)
+![A new, empty entry with the dashed audio drop zone and the Browse for file and Record buttons](images/new-entry.png)
 
 ## 4. Pick a prompt
 

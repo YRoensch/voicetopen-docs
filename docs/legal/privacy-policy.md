@@ -1,6 +1,6 @@
 # Privacy Policy
 
-*Last Updated: June 17, 2026*
+*Last Updated: November 6, 2026*
 
 
 **Provider / Data Controller:**
@@ -14,9 +14,9 @@ Phone: +49-177-4901659
 
 This Privacy Policy explains how VoiceToPen (the "App") handles your data. It applies to all users worldwide.
 
-The single most important thing to understand about VoiceToPen is this: **it is a local-first application with no backend of our own.** We operate no servers, no database, and no user accounts. We never receive, see, or store the voice memos you import, the transcripts produced from them, or the polished text the App generates. All of that lives on your Mac.
+The single most important thing to understand about VoiceToPen is this: **it is a local-first application with no backend of our own.** We operate no servers, no database, and no user accounts. We never receive, see, or store the voice memos you import, the transcripts produced from them, or the polished text the App generates. All of that lives on your device.
 
-The App does two things that involve sending data off your device, and in both cases the data goes **directly from your Mac to a third-party service that you have signed up for yourself, using your own credentials**:
+The App does two things that involve sending data off your device, and in both cases the data goes **directly from your device to a third-party service that you have signed up for yourself, using your own credentials**:
 
 - **Transcription** — your audio is sent to **ElevenLabs** to be converted to text, using **your own ElevenLabs API key**.
 - **Polishing and structuring** — the resulting transcript is sent to **Anthropic** (the Claude API) to be cleaned up and structured, using **your own Anthropic API key**.
@@ -36,22 +36,24 @@ We act as a "data controller" within the meaning of the GDPR only for the limite
 
 #### 2. How the App Works (Data Flow)
 
-1. You record audio in the App, or import a voice memo that you recorded elsewhere. The audio file is stored **locally on your Mac**. The App uses the microphone only while you are recording, after you have allowed it in your device's settings, and the recording is not sent anywhere until you choose to transcribe it.
-2. When you choose to transcribe it, the App sends the audio **directly to ElevenLabs**, authenticated with the ElevenLabs API key **you** entered. ElevenLabs returns a text transcript, which is stored **locally on your Mac**.
-3. When you choose to polish and structure the transcript, the App sends that text **directly to Anthropic's Claude API**, authenticated with the Anthropic API key **you** entered. Anthropic returns the polished text, which is stored **locally on your Mac**.
+1. You record audio in the App, or import a voice memo that you recorded elsewhere. The audio file is stored **locally on your device**. The App uses the microphone only while you are recording, after you have allowed it in your device's settings, and the recording is not sent anywhere until you choose to transcribe it.
+2. When you choose to transcribe it, the App sends the audio **directly to ElevenLabs**, authenticated with the ElevenLabs API key **you** entered. ElevenLabs returns a text transcript, which is stored **locally on your device**.
+3. When you choose to polish and structure the transcript, the App sends that text **directly to Anthropic's Claude API**, authenticated with the Anthropic API key **you** entered. Anthropic returns the polished text, which is stored **locally on your device**.
 4. At no point does any of this data pass through, or get stored on, any server operated by us. We have no such server.
 
-#### 3. Data That Stays on Your Mac
+#### 3. Data That Stays on Your Device
 
 The following is stored exclusively on your device and is never transmitted to us:
 
 - **Voice memos** you record in the App or import (audio files).
 - **Transcripts** returned by ElevenLabs.
 - **Polished and structured text** returned by Anthropic.
-- **Your API keys** for ElevenLabs and Anthropic. These are stored in the **macOS Keychain**, the operating system's encrypted credential store. We never transmit your keys to ourselves.
+- **Your API keys** for ElevenLabs and Anthropic. These are stored in the **Keychain** on your device, the operating system's encrypted credential store. We never transmit your keys to ourselves.
 - **App preferences and settings.**
 
-You can delete any of this at any time within the App, or by removing the App and its data from your Mac. We have no ability to access, recover, or restore it.
+On iPad, this data is included in your iPad's iCloud or computer backup if you use one; those backups are controlled by you and Apple, not by us.
+
+You can delete any of this at any time within the App, or by removing the App and its data from your device. We have no ability to access, recover, or restore it.
 
 #### 4. Data We Process
 
@@ -61,7 +63,7 @@ We do **not** collect or process: your name (unless you provide it), location da
 
 #### 5. Third-Party Services You Connect With Your Own Credentials
 
-To use the transcription and polishing features, you must have your own accounts and API keys with the following providers. When you use those features, the App sends data **directly from your Mac to these providers under your account**. Your use of each service is governed by that provider's own terms and privacy policy, and your data-protection relationship for that processing is with them, not with us.
+To use the transcription and polishing features, you must have your own accounts and API keys with the following providers. When you use those features, the App sends data **directly from your device to these providers under your account**. Your use of each service is governed by that provider's own terms and privacy policy, and your data-protection relationship for that processing is with them, not with us.
 
 **ElevenLabs** (speech-to-text / transcription)
 Your audio is sent to ElevenLabs to be transcribed. According to ElevenLabs, by default it retains request data in accordance with its privacy policy in order to operate, troubleshoot, and improve its services, and it may use voice data to help its models learn; it states that it does not use such data to profile or target you. ElevenLabs offers data-protection controls (and, on certain plans, zero-retention and EU data-residency options). We strongly recommend you review ElevenLabs' Privacy Policy and configure the privacy settings available in your ElevenLabs account.
@@ -96,13 +98,13 @@ For the transcription and polishing steps, **you** are the one who initiates the
 
 | Data | Retention |
 |---|---|
-| Voice memos, transcripts, polished text, API keys, settings (on your Mac) | Kept on your device until you delete them or remove the App. We cannot access, recover, or restore them. |
+| Voice memos, transcripts, polished text, API keys, settings (on your device) | Kept on your device until you delete them or remove the App. We cannot access, recover, or restore them. |
 | Data sent to ElevenLabs / Anthropic | Retained by each provider according to its own policy and your account settings (see Section 5). We retain nothing. |
 | Support correspondence | Kept only as long as needed to handle your request and to comply with any applicable legal retention periods, then deleted. |
 
 #### 9. Security
 
-Communication between the App and the providers uses TLS encryption. Your API keys are held in the macOS Keychain, encrypted by the operating system. Your local files are protected by your Mac's built-in security features; we recommend you secure your Mac with a password and full-disk encryption (FileVault) and keep macOS updated.
+Communication between the App and the providers uses TLS encryption. Your API keys are held in the Keychain on your device, encrypted by the operating system. Your local files are protected by your device's built-in security features; we recommend you secure your device with a password and full-disk encryption (FileVault) and keep macOS updated.
 
 No system can be guaranteed perfectly secure. Because we hold no personal data on any server of our own, the risk surface on our side is minimal. For the providers you connect to, their security is governed by their own policies.
 
@@ -111,7 +113,7 @@ No system can be guaranteed perfectly secure. Because we hold no personal data o
 Regardless of where you live, you can:
 
 - Delete any voice memo, transcript, or polished text directly in the App at any time;
-- Remove the App and its local data from your Mac at any time;
+- Remove the App and its local data from your device at any time;
 - Contact us at peal-tables.3v@icloud.com with any privacy question or request. We aim to respond within 30 days.
 
 Because we hold essentially no personal data about you on our side, requests for access, rectification, erasure, restriction, portability, or objection (Articles 15–21 GDPR) will, in most cases, concern data we simply do not have. **For data held by ElevenLabs or Anthropic, you should exercise your rights directly with those providers**, since you are their account holder and they control that data.

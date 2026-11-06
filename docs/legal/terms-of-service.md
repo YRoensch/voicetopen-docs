@@ -1,6 +1,6 @@
 # Terms of Service
 
-*Last Updated: June 17, 2026*
+*Last Updated: November 6, 2026*
 
 
 **Provider:**
@@ -12,17 +12,17 @@ Phone: +49-177-4901659
 
 #### 1. Agreement to Terms
 
-By downloading, installing, or using the VoiceToPen application for macOS (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the App. These Terms form a legally binding agreement between you ("you" or "your") and Dr. Yulia Rönsch ("we," "us," or "our").
+By downloading, installing, or using the VoiceToPen application for macOS and iPadOS (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the App. These Terms form a legally binding agreement between you ("you" or "your") and Dr. Yulia Rönsch ("we," "us," or "our").
 
 #### 2. Description of the App
 
-VoiceToPen is a macOS application that helps you turn voice memos into clean, structured text. It allows you to:
+VoiceToPen is a macOS and iPadOS application that helps you turn voice memos into clean, structured text. It allows you to:
 
-- Record audio in the App with your device's microphone, or import a voice memo you recorded elsewhere, stored locally on your Mac;
+- Record audio in the App with your device's microphone, or import a voice memo you recorded elsewhere, stored locally on your device;
 - Send that audio to **ElevenLabs** to be transcribed into text; and
 - Send the resulting transcript to **Anthropic** (the Claude API) to be polished and structured.
 
-The transcription and polishing features call third-party AI services **using API keys that you provide from your own ElevenLabs and Anthropic accounts**. All resulting files are stored locally on your Mac. We operate no server and store none of your content.
+The transcription and polishing features call third-party AI services **using API keys that you provide from your own ElevenLabs and Anthropic accounts**. All resulting files are stored locally on your device. We operate no server and store none of your content.
 
 #### 3. Your Own Provider Accounts and Credits Are Required
 
@@ -46,7 +46,7 @@ You agree NOT to: copy, modify, or create derivative works of the App; reverse e
 
 #### 6. Your Responsibilities and the Content You Process
 
-You are responsible for the content of the voice memos you import and process, for maintaining the security of your Mac and your API keys, and for backing up any files you wish to preserve (see Section 8).
+You are responsible for the content of the voice memos you import and process, for maintaining the security of your device and your API keys, and for backing up any files you wish to preserve (see Section 8).
 
 **Recording and processing other people.** If a voice memo contains the voice or personal data of any person other than yourself, you are responsible for ensuring you have a lawful basis to record, transcribe, and process that content (for example, the consent of the people recorded, where required by applicable law). You must not use the App to process content unlawfully, or content that is illegal, infringing, or harmful.
 
@@ -56,11 +56,11 @@ The App relies on ElevenLabs and Anthropic, which are independent providers not 
 
 #### 8. Local Storage and Loss of Data
 
-Your voice memos, transcripts, polished text, settings, and API keys are stored locally on your Mac. Because we keep no server-side copy:
+Your voice memos, transcripts, polished text, settings, and API keys are stored locally on your device. Because we keep no server-side copy:
 
-- removing the App, resetting or losing your Mac, or deleting files may permanently destroy your data;
+- removing the App, resetting or losing your device, or deleting files may permanently destroy your data;
 - we cannot recover, restore, or transfer your data; and
-- we recommend you use your Mac's backup features (e.g. Time Machine) for anything you wish to keep.
+- we recommend you use your device's backup features (e.g. Time Machine on a Mac, or iCloud or computer backups on iPad) for anything you wish to keep.
 
 #### 9. AI-Generated Content
 
@@ -68,7 +68,7 @@ Transcripts and polished text are produced by third-party AI systems and may be 
 
 #### 10. Privacy
 
-Our handling of personal data is described in our Privacy Policy, which is incorporated into these Terms by reference. In short: the App is local-first, we operate no backend, and transcription and polishing happen directly between your Mac and the providers under your own accounts.
+Our handling of personal data is described in our Privacy Policy, which is incorporated into these Terms by reference. In short: the App is local-first, we operate no backend, and transcription and polishing happen directly between your device and the providers under your own accounts.
 
 #### 11. The App, Fees, and Payment
 
@@ -110,7 +110,7 @@ To the extent permitted by applicable law, you agree to indemnify and hold us ha
 
 #### 17. Availability, Modifications, and Termination
 
-We do not guarantee uninterrupted or error-free availability, and we may modify, suspend, or discontinue the App at any time; where this materially affects a paid feature you purchased, your statutory rights under Section 13 are unaffected. You may stop using the App at any time by removing it from your Mac. We may terminate your licence if you materially breach these Terms.
+We do not guarantee uninterrupted or error-free availability, and we may modify, suspend, or discontinue the App at any time; where this materially affects a paid feature you purchased, your statutory rights under Section 13 are unaffected. You may stop using the App at any time by removing it from your device. We may terminate your licence if you materially breach these Terms.
 
 #### 18. Changes to These Terms
 
