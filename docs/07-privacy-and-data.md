@@ -1,10 +1,10 @@
 # 7. Privacy & Your Data
 
-VoiceToPen is a **local-first** app. There is no VoiceToPen account, no VoiceToPen server, and no analytics. Your recordings and texts are stored on your Mac.
+VoiceToPen is a **local-first** app. There is no VoiceToPen account, no VoiceToPen server, and no analytics. Your recordings and texts are stored on your device (your Mac or iPad).
 
-## What leaves your Mac — and where it goes
+## What leaves your device — and where it goes
 
-Data is sent only when you use a feature that needs it, and it goes **directly from your Mac** to the service, using **your own** API key:
+Data is sent only when you use a feature that needs it, and it goes **directly from your device** to the service, using **your own** API key:
 
 | When you… | What is sent | Sent to |
 |---|---|---|
@@ -20,7 +20,7 @@ For full details, see the [VoiceToPen Privacy Policy](legal/privacy-policy.md).
 
 ## Your API keys
 
-Your ElevenLabs and Anthropic keys are stored in the **macOS Keychain** on your Mac — the same secure storage macOS uses for passwords. They are only ever sent to the service they belong to.
+Your ElevenLabs and Anthropic keys are stored in the **Keychain** on your device — the same secure storage the system uses for passwords. They are only ever sent to the service they belong to.
 
 **To change a key:** open **Settings**, replace the key and click **Save**.
 **To remove a key:** open **Settings**, clear the field and click **Save**.
@@ -39,6 +39,10 @@ To open it: in Finder, choose **Go → Go to Folder…** (⇧⌘G), paste the pa
 
 > Please don't edit or rename files in this folder by hand — it can make entries disappear from the app. Use VoiceToPen to make changes, and [Export](06-exporting.md) to get copies of your work.
 
+**On iPad,** your data is stored inside the app and isn't visible in the Files app. Use [Export](06-exporting.md) to get copies of your work. iPad data is included in your iCloud or computer backup of the iPad.
+
+> Your Mac and your iPad each keep their own projects — they are **not synced** between devices.
+
 ## Backing up
 
 - **Time Machine** backs up this folder automatically, along with the rest of your home folder.
@@ -49,8 +53,8 @@ API keys live in the Keychain, not in this folder, so they aren't part of a fold
 
 ## Deleting your data
 
-- **Delete an entry or project** in the app. Deletion is permanent: it removes the files from your Mac and they don't go to the Trash.
-- **Remove everything:** delete the app, then delete the folder shown above. Also remove your keys from **Settings** first (clear both fields and click **Save**) if you want them gone from the Keychain.
+- **Delete an entry or project** in the app. Deletion is permanent: it removes the files from your device and they don't go to the Trash.
+- **Remove everything:** delete the app, then (on the Mac) delete the folder shown above. On iPad, deleting the app removes its data. Also remove your keys from **Settings** first (clear both fields and click **Save**) if you want them gone from the Keychain.
 
 Data you sent to ElevenLabs or Anthropic is managed by those services — see their privacy policies or account settings.
 

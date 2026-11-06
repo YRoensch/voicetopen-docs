@@ -26,11 +26,11 @@ A dash (—) means that stage hasn't happened yet.
 
 ## Open an entry from the table
 
-**Double-click** a row to open that entry. A **← Progress** link appears at the top left of the entry so you can jump straight back to the table.
+**Double-click** a row to open that entry (on iPad, **tap** it). A **← Progress** link appears at the top left of the entry so you can jump straight back to the table.
 
 ## Select entries for bulk actions
 
-Hover over a row and click the circle on the left to select it. Selected entries can be exported, marked done or undone, or deleted from the bar at the bottom of the sidebar — see [Working with several entries at once](03-projects-and-entries.md#working-with-several-entries-at-once).
+Hover over a row and click the circle on the left to select it. On iPad, tap **Select** at the top of the sidebar first, then tap rows. Selected entries can be exported, marked done or undone, or deleted from the bar at the bottom of the sidebar — see [Working with several entries at once](03-projects-and-entries.md#working-with-several-entries-at-once).
 
 > **Tip:** The Progress view is a handy place to select entries for a bulk export — for example, every entry that has a result.
 

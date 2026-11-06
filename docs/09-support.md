@@ -8,8 +8,8 @@ Email: **peal-tables.3v@icloud.com**
 
 To help us help you, please include:
 
-- Your **macOS version** ( → **About This Mac**)
-- Your **VoiceToPen version** (**VoiceToPen → About VoiceToPen**)
+- Your **device** and its **macOS or iPadOS version** (Mac:  → **About This Mac**; iPad: **Settings → General → About**)
+- Your **VoiceToPen version** (Mac: **VoiceToPen → About VoiceToPen**)
 - What you were doing, and what happened
 - The **exact error message**, if there was one (a screenshot is ideal)
 

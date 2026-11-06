@@ -2,9 +2,7 @@
 
 This walkthrough takes you from a recording to finished text in a few minutes. It assumes you've already entered your API keys ([Getting Started](01-getting-started.md)).
 
-You'll need an audio file to start with — for example, a voice memo recorded with the **Voice Memos** app on your iPhone or Mac. VoiceToPen accepts **MP3, M4A, WAV, OGG and WEBM** files.
-
-> VoiceToPen has no recording feature, by design. It's made for an organized workflow: you record whenever and wherever it suits you, and transcribe and work on the recordings later — days or weeks later if you like.
+You can record right in VoiceToPen, or start with an audio file — for example, a voice memo recorded with the **Voice Memos** app on your iPhone or Mac. VoiceToPen accepts **MP3, M4A, WAV, OGG and WEBM** files.
 
 ## 1. Create a project
 
@@ -21,6 +19,12 @@ An *entry* is one recording and everything made from it.
 ## 3. Add your audio
 
 Drag your audio file onto the dashed **AUDIO** box — or click **Browse for file…** and choose it. You'll see the file name, its size, and a player so you can listen.
+
+To record instead, click **Record**, speak, and click **Stop** — see [Recording in VoiceToPen](04-workflow-stages.md#recording-in-voicetopen).
+
+> **On iPad:** Tap **Browse for file…** and choose the recording in the Files app — see [Using VoiceToPen on iPad](10-ipad.md).
+
+> **From Voice Memos:** you can also send a recording straight from Voice Memos with **Share → VoiceToPen**. It arrives as a new entry in the **From Voice Memos** project, with the audio already added — see [Recordings from Voice Memos](03-projects-and-entries.md#recordings-from-voice-memos).
 
 ![A new, empty entry with the dashed audio drop zone and the Browse for file button](images/new-entry.png)
 

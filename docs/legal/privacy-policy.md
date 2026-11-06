@@ -36,7 +36,7 @@ We act as a "data controller" within the meaning of the GDPR only for the limite
 
 #### 2. How the App Works (Data Flow)
 
-1. You import a voice memo that you recorded elsewhere. The audio file is stored **locally on your Mac**.
+1. You record audio in the App, or import a voice memo that you recorded elsewhere. The audio file is stored **locally on your Mac**. The App uses the microphone only while you are recording, after you have allowed it in your device's settings, and the recording is not sent anywhere until you choose to transcribe it.
 2. When you choose to transcribe it, the App sends the audio **directly to ElevenLabs**, authenticated with the ElevenLabs API key **you** entered. ElevenLabs returns a text transcript, which is stored **locally on your Mac**.
 3. When you choose to polish and structure the transcript, the App sends that text **directly to Anthropic's Claude API**, authenticated with the Anthropic API key **you** entered. Anthropic returns the polished text, which is stored **locally on your Mac**.
 4. At no point does any of this data pass through, or get stored on, any server operated by us. We have no such server.
@@ -45,7 +45,7 @@ We act as a "data controller" within the meaning of the GDPR only for the limite
 
 The following is stored exclusively on your device and is never transmitted to us:
 
-- **Imported voice memos** (audio files).
+- **Voice memos** you record in the App or import (audio files).
 - **Transcripts** returned by ElevenLabs.
 - **Polished and structured text** returned by Anthropic.
 - **Your API keys** for ElevenLabs and Anthropic. These are stored in the **macOS Keychain**, the operating system's encrypted credential store. We never transmit your keys to ourselves.

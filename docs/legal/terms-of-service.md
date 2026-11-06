@@ -18,7 +18,7 @@ By downloading, installing, or using the VoiceToPen application for macOS (the "
 
 VoiceToPen is a macOS application that helps you turn voice memos into clean, structured text. It allows you to:
 
-- Import a voice memo you recorded elsewhere, stored locally on your Mac;
+- Record audio in the App with your device's microphone, or import a voice memo you recorded elsewhere, stored locally on your Mac;
 - Send that audio to **ElevenLabs** to be transcribed into text; and
 - Send the resulting transcript to **Anthropic** (the Claude API) to be polished and structured.
 

@@ -17,15 +17,17 @@ You can export one entry, a whole project, or any selection of entries.
 | **Export Result…** | The final text as a `.md` file |
 | **Save audio file…** | A copy of the original audio file |
 
-4. Choose where to save and click **Save**.
+4. Choose where to save and click **Save**. On iPad, the Files app's **Save** screen opens: pick a folder and tap **Save**.
 
 The exported file starts with the entry's title as a heading.
 
-> **Tip:** To paste the result straight into another app instead, use the **copy** icon in the **RESULT** section.
+To export just the result, you can also click the **Export** icon (↓ in a circle) in the **RESULT** section.
+
+> **Tip:** To paste the result straight into another app instead, use the **copy** icon in the **RESULT** section. To send it somewhere directly — Mail, Messages, Notes, AirDrop and other apps — use the **Share** icon next to it — see [Sharing your result](04-workflow-stages.md#sharing-your-result).
 
 ## Export a whole project
 
-1. In the sidebar, right-click the project and choose **Export project…**
+1. In the sidebar, right-click the project (on iPad, touch and hold it) and choose **Export project…**
 2. Choose a stage: **Transcription**, **Cleaned**, **Result**, or **Audio files**.
 3. Click **Export .md** (or **Save audio files…**) and choose where to save.
 
@@ -43,7 +45,7 @@ The selected entries are combined into one file, just like a project export. The
 
 ## Notes
 
-- If an entry has nothing at the stage you chose (for example, no result yet), it still appears in the combined file under its title, with the placeholder *(no content)*. The export window warns you when this applies.
+- Entries that have nothing at the stage you chose (for example, no result yet) are **skipped** — they don't appear in the combined file. The export window warns you when this applies, and the confirmation message tells you how many were skipped. If none of the entries have content at that stage, nothing is exported.
 - **Audio files** are saved as separate files into a folder you choose, using their original file names. A file in that folder with the same name is **replaced**.
 - Exports are copies. Changing an exported file doesn't change anything in VoiceToPen, and vice versa.
 

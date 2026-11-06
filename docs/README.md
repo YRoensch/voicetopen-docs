@@ -4,25 +4,30 @@
 
 VoiceToPen turns your voice recordings into polished writing: import audio, get a transcript, clean it up, and let Claude rewrite it into the text you need.
 
+Record an idea whenever it comes to you, turn it into a finished post, and on iPad share it straight to where you publish — Substack Notes, Threads, LinkedIn, Bluesky or Mastodon. That makes VoiceToPen a perfect choice for creators working on the go. See [Post to social networks](04-workflow-stages.md#post-to-social-networks).
+
 ![The VoiceToPen window: projects in the sidebar, the open entry on the right](images/main-window.png)
 
-*This guide describes the current App Store version of VoiceToPen, for macOS 14.6 or later. See [Release Notes](release-notes.md) for what's new in each version.*
+*This guide describes the current App Store version of VoiceToPen for Mac (macOS 14.6 or later) and iPad (iPadOS 17 or later). Instructions are written for the Mac; [Using VoiceToPen on iPad](10-ipad.md) lists what's different on iPad. See [Release Notes](release-notes.md) for what's new in each version.*
 
 ## Contents
 
 1. [Getting Started](01-getting-started.md) — install the app, get your API keys, enter them in Settings
 2. [Quick Start](02-quick-start.md) — from audio to polished text in five minutes
-3. [Projects & Entries](03-projects-and-entries.md) — organize your work, bulk actions
+3. [Projects & Entries](03-projects-and-entries.md) — organize your work, recordings from Voice Memos, bulk actions
 4. [The Writing Workflow](04-workflow-stages.md) — Audio, Transcript, Clean, Prompt, Result and Run All in detail
 5. [The Progress View](05-progress-view.md) — see the status of every entry at a glance
 6. [Exporting Your Work](06-exporting.md) — save text as Markdown and copies of your audio
 7. [Privacy & Your Data](07-privacy-and-data.md) — what is sent where, where data is stored, backups
 8. [Troubleshooting & FAQ](08-troubleshooting.md) — error messages and common questions
 9. [Contact & Support](09-support.md) — how to reach us
+10. [Using VoiceToPen on iPad](10-ipad.md) — touch gestures, Files, and other iPad differences
 
 Also: [Release Notes](release-notes.md) — what changed in each version
 
 ## Keyboard shortcuts
+
+These work on the Mac, and on iPad with a hardware keyboard.
 
 | Shortcut | Action |
 |---|---|
@@ -30,5 +35,5 @@ Also: [Release Notes](release-notes.md) — what changed in each version
 | **Return** | Confirm a new title or dialog |
 | **Esc** | Cancel a dialog |
 | **⌘Z** | Undo typing in a text box |
-| **⌘Q** | Quit VoiceToPen |
+| **⌘Q** | Quit VoiceToPen (Mac) |
 

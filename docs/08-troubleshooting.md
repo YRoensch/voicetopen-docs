@@ -45,9 +45,21 @@ The number tells you what happened:
 
 Make sure it's one of the supported formats: **MP3, M4A, WAV, OGG, WEBM**. If it's a video file or another format, convert it to M4A first — for example, open it in QuickTime Player and choose **File → Export As → Audio Only**.
 
+### VoiceToPen isn't in the Share menu
+
+See [If VoiceToPen isn't in the Share menu](03-projects-and-entries.md#if-voicetopen-isnt-in-the-share-menu). On the Mac, choose **Share → Edit Extensions…** and turn on **VoiceToPen**. On iPad, tap **More** at the end of the app row.
+
+### A recording I shared doesn't show up
+
+Shared recordings appear in the **From Voice Memos** project when you open VoiceToPen or switch back to it. If you renamed that project, VoiceToPen creates a new **From Voice Memos** project for new recordings. Only audio can be shared to VoiceToPen; a Voice Memos transcript can't.
+
+### "Microphone access is off"
+
+VoiceToPen isn't allowed to use the microphone, so it can't record. On the Mac, open **System Settings → Privacy & Security → Microphone**; on iPad, **Settings → Privacy & Security → Microphone**. Turn on **VoiceToPen** and try **Record** again.
+
 ### Transcription or generation takes a long time
 
-Long recordings and long texts take longer — up to several minutes for an hour of audio. Keep the app open and your Mac online until it finishes. If nothing happens for more than 10 minutes, the request times out; try again.
+Long recordings and long texts take longer — up to several minutes for an hour of audio. Keep the app open and your device online until it finishes. On iPad, keep VoiceToPen on screen — if you switch to another app for a long time, iPadOS may pause it. If nothing happens for more than 10 minutes, the request times out; try again.
 
 ### The transcript is in the wrong language or full of mistakes
 
@@ -55,7 +67,7 @@ Choose the correct language in the **TRANSCRIPT** section (instead of **Auto**) 
 
 ### My edits disappeared
 
-Re-transcribe, Re-clean, Generate and Run All **replace** the text of the stage they produce, including edits. See [The Writing Workflow](04-workflow-stages.md#run-all). Export or copy versions you want to keep before running a step again.
+Re-transcribe, Re-clean and Generate **replace** the text of the stage they produce, including edits. Run All keeps an existing transcript unless you choose **Re-transcribe & Run**, but it replaces the cleaned text and the result (it asks you first). See [The Writing Workflow](04-workflow-stages.md#run-all). Export or copy versions you want to keep before running a step again.
 
 ### The window closed and the app quit
 
@@ -67,7 +79,10 @@ That's expected — VoiceToPen has one main window, and closing it quits the app
 VoiceToPen doesn't charge you for transcription or writing. Those are billed by ElevenLabs and Anthropic to your own accounts, based on how much you use them. Check their pricing pages for current rates; your usage is shown in each service's dashboard.
 
 **Can I record directly in VoiceToPen?**
-No, and that's intentional. VoiceToPen isn't a dictation tool. It's for turning recordings you've already made — with Voice Memos or any other app — into finished writing, whenever you're ready. Drag the file into the **AUDIO** section to start.
+Yes. Click **Record** in the **AUDIO** section of a new entry — see [Recording in VoiceToPen](04-workflow-stages.md#recording-in-voicetopen). You can also use recordings made elsewhere: drag the file into the **AUDIO** section, or send it from Voice Memos with **Share → VoiceToPen**.
+
+**Can I use VoiceToPen on both my Mac and my iPad?**
+Yes. Your projects aren't synced between devices, though: each device keeps its own. To move work across, export it on one device and import the audio on the other.
 
 **Can I use VoiceToPen offline?**
 You can open, read, edit, organize and export your entries offline. Transcribing, cleaning and generating need an internet connection.

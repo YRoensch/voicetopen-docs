@@ -1,8 +1,8 @@
 # 1. Getting Started
 
-VoiceToPen turns your spoken words into polished writing. You import an audio recording you made earlier, the app transcribes it, cleans up the transcript, and then rewrites it into the kind of text you ask for — a blog post, a book chapter, tidy notes.
+VoiceToPen turns your spoken words into polished writing. You record straight into the app or import a recording you made earlier, the app transcribes it, cleans up the transcript, and then rewrites it into the kind of text you ask for — a blog post, a book chapter, tidy notes.
 
-VoiceToPen is built for an organized workflow: record your ideas whenever it suits you, collect the recordings, and turn them into text later. It deliberately has no recording feature of its own and is not a live dictation tool.
+Record your ideas whenever it suits you — in VoiceToPen with **Record**, or in Voice Memos and send them over — and turn them into text right away or later.
 
 To do this, VoiceToPen uses two online services that you sign up for yourself:
 
@@ -15,16 +15,18 @@ You pay these services directly for what you use. VoiceToPen itself never sees y
 
 ## What you need
 
-- A Mac running **macOS 14.6 (Sonoma) or later**
+- A Mac running **macOS 14.6 (Sonoma) or later**, or an iPad running **iPadOS 17 or later**
 - An internet connection
 - An **ElevenLabs API key**
 - An **Anthropic API key**
 
 ## Step 1: Install VoiceToPen
 
-1. Open the **App Store** on your Mac and search for **VoiceToPen**.
+1. Open the **App Store** on your Mac or iPad and search for **VoiceToPen**.
 2. Click **Get**, then **Install**.
-3. Open VoiceToPen from Launchpad or your Applications folder.
+3. Open VoiceToPen from Launchpad or your Applications folder. On iPad, open it from the Home Screen.
+
+> **Tip:** You don't need to keep this page open. In VoiceToPen's **Settings**, click the **ⓘ** button next to each API key field for the same steps and a link that opens the service's API key page.
 
 ## Step 2: Get your ElevenLabs API key
 
@@ -49,12 +51,13 @@ You pay these services directly for what you use. VoiceToPen itself never sees y
 1. In the bottom-left corner of the VoiceToPen window, click **Settings** (the gear icon).
 2. Under **API Keys**, paste your ElevenLabs key into the **ElevenLabs** field.
 3. Paste your Anthropic key into the **Anthropic** field.
+   Not sure where to find a key? Click the **ⓘ** button next to its field.
 4. Under **Transcription**, choose your **Default Language** — the language you usually speak in your recordings. Choose **Auto-detect** if it varies.
 5. Click **Save**. You'll see "Settings saved ✓".
 
 ![The Settings sheet with fields for the ElevenLabs and Anthropic API keys and the default language](images/settings.png)
 
-Your keys are stored securely in the macOS Keychain on your Mac.
+Your keys are stored securely in the Keychain on your device. If you use VoiceToPen on both a Mac and an iPad, enter them on each device.
 
 ## A quick tour of the window
 
@@ -63,6 +66,8 @@ Your keys are stored securely in the macOS Keychain on your Mac.
 
 ![The VoiceToPen window with the sidebar on the left and an open entry on the right](images/main-window.png)
 
-> **Good to know:** VoiceToPen has a single main window. Closing it quits the app. Everything you do is saved automatically, so nothing is lost.
+> **Good to know:** On the Mac, VoiceToPen has a single main window, and closing it quits the app. Everything you do is saved automatically, so nothing is lost.
+
+> **On iPad?** Everything works the same way, with touch instead of the mouse — see [Using VoiceToPen on iPad](10-ipad.md).
 
 **Next:** [Quick Start →](02-quick-start.md)
