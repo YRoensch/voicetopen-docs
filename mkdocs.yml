@@ -25,7 +25,7 @@ theme:
         name: Switch to light mode
 
 extra:
-  app_store_url: https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB&mt=12
+  app_store_url: https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB
   # Replaced with MARKETING_VERSION from the Xcode project by scripts/build-public-docs.sh.
   app_version: "1.1"
 

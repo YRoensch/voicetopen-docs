@@ -1,8 +1,8 @@
 # VoiceToPen User Guide
 
-<a href="https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB&mt=12"><img src="docs/images/logo.png" alt="VoiceToPen app icon" width="96"></a>
+<a href="https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB"><img src="docs/images/logo.png" alt="VoiceToPen app icon" width="96"></a>
 
-**[VoiceToPen on the App Store](https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB&mt=12)**
+**[VoiceToPen on the App Store](https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB)**
 
 Source of the VoiceToPen user guide, published at
 **https://yroensch.github.io/voicetopen-docs/**.

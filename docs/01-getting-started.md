@@ -26,8 +26,6 @@ You pay these services directly for what you use. VoiceToPen itself never sees y
 2. Click **Get**, then **Install**.
 3. Open VoiceToPen from Launchpad or your Applications folder. On iPad, open it from the Home Screen.
 
-> **iPad version pending:** VoiceToPen for iPad is waiting for App Store approval. Until Apple approves it, VoiceToPen is available for Mac only.
-
 > **Tip:** You don't need to keep this page open. In VoiceToPen's **Settings**, click the **ⓘ** button next to each API key field for the same steps and a link that opens the service's API key page.
 
 ## Step 2: Get your ElevenLabs API key

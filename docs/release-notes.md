@@ -8,7 +8,7 @@ This guide always describes the **current App Store version** of VoiceToPen, sho
 
 - VoiceToPen **keeps the original transcript and cleaned text** next to your edited versions. An **Edited | Original** switch shows the original, and **Restore Original…** brings it back. **Re-transcribe** and **Re-clean** now ask before replacing your text.
 - **Record** straight into an entry: click **Record** in the **AUDIO** section, then **Stop**. See [Recording in VoiceToPen](04-workflow-stages.md#recording-in-voicetopen).
-- **VoiceToPen for iPad** (iPadOS 17 or later). *Pending App Store approval: version 1.1 is available for Mac now, and the iPad version follows once Apple approves it.* It's the same App Store app as on the Mac, so you'll get it from the App Store on your iPad with the same Apple Account. Your Mac and your iPad each keep their own projects; they aren't synced. See [Using VoiceToPen on iPad](10-ipad.md).
+- **VoiceToPen for iPad** (iPadOS 17 or later). It's the same App Store app as on the Mac, so you get it from the App Store on your iPad with the same Apple Account. Your Mac and your iPad each keep their own projects; they aren't synced. See [Using VoiceToPen on iPad](10-ipad.md).
 - **Share recordings from Voice Memos:** choose **Share → VoiceToPen** on a recording, and it becomes a new entry in the **From Voice Memos** project, without leaving Voice Memos. See [Recordings from Voice Memos](03-projects-and-entries.md#recordings-from-voice-memos).
 - **Drag entries** in the sidebar onto another project to move them.
 - An **ⓘ button** next to each API key field in **Settings** shows how to get an ElevenLabs or Anthropic key and opens the page where you create it.

@@ -1,6 +1,6 @@
 # VoiceToPen User Guide
 
-<a href="https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB&mt=12"><img src="images/logo.png" alt="VoiceToPen app icon" width="96"></a>
+<a href="https://apps.apple.com/de/app/voicetopen/id6781211968?l=en-GB"><img src="images/logo.png" alt="VoiceToPen app icon" width="96"></a>
 
 VoiceToPen turns your voice recordings into polished writing: import audio, get a transcript, clean it up, and let Claude rewrite it into the text you need.
 
@@ -9,8 +9,6 @@ Record an idea whenever it comes to you, turn it into a finished post, and on iP
 ![The VoiceToPen window: projects in the sidebar, the open entry on the right](images/main-window.png)
 
 *This guide describes the current App Store version of VoiceToPen for Mac (macOS 14.6 or later) and iPad (iPadOS 17 or later). Instructions are written for the Mac; [Using VoiceToPen on iPad](10-ipad.md) lists what's different on iPad. See [Release Notes](release-notes.md) for what's new in each version.*
-
-> **iPad version pending:** VoiceToPen for iPad is waiting for App Store approval. Until Apple approves it, VoiceToPen is available for Mac only.
 
 ## Contents
 

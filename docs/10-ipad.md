@@ -2,8 +2,6 @@
 
 VoiceToPen on iPad works just like on the Mac: the same projects and entries, the same five stages, and the same Run All. The rest of this guide is written for the Mac. This page lists what's different on iPad.
 
-> **iPad version pending:** VoiceToPen for iPad is waiting for App Store approval. Until Apple approves it, VoiceToPen is available for Mac only.
-
 ![VoiceToPen on iPad: projects in the sidebar on the left, an open entry with its stages on the right](images/ipad-main-window.png)
 
 ## What you need
